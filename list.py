@@ -1,0 +1,30 @@
+subjects = ["Telugu","Hindi","English", "Maths" , "science", "social"]
+print(subjects)
+print(subjects[0])
+print(type(subjects))
+print(subjects[-1])
+print(len(subjects))
+print(subjects[1:5])
+print("English" in subjects)
+subjects.append("Physics")
+print(subjects)
+subjects.insert(4,"statistics")
+print(subjects)
+subjects[1]="chemistry"
+print(subjects)
+subjects.remove("Maths")
+print(subjects)
+subjects.pop(4)
+subjects.index("social")
+print(subjects)
+subjects.count("English")
+print(subjects)
+subjects.sort()
+print(subjects)
+subjects.reverse()
+print(subjects)
+subjects.clear()
+print(subjects)
+
+
+
