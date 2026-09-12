@@ -1,0 +1,11 @@
+details = ("Malleshwari", 20, 90.4 ,"CSE" )
+print(details)
+for detail in details:
+  print(detail)
+print(details.index(20))
+print(details[0:3])
+print(90.4 in details)
+print(len(details))
+print(details[::-1])
+print(details[-1])
+print(details[0])
